@@ -39,7 +39,8 @@ class UserForm extends React.Component{
 
     render(){
         return (
-            <div className="UserForm">
+            <div className="UserForm"> 
+            <h1>Registration form</h1>
                 <form onSubmit={ (ele) => this.onSubmit(ele)}>
                     <label>First Name :</label>
                     <input id = "firstName" type={"text"} placeholder = "Enter your First Name"></input>
