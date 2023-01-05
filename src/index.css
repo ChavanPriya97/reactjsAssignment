@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color:rgb(12, 164, 149);
+  background-color:rgb(148, 188, 200);
 }
 
 code {
@@ -32,12 +32,12 @@ button{
   }
   
   #btn1 {
-    background-color: blue;
+    background-color: rgb(5, 211, 239);
     color: white;
     border-radius: 5px;
   }
   #btn1:hover {
-    background-color: tomato;
+    background-color: rgb(50, 188, 12);
     color: white;
     border-radius: 5px;
     padding: 2px;
