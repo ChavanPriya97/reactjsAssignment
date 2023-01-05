@@ -20,13 +20,7 @@ code {
   color: white;
   padding: 5px;
   }
-  
-input , select{
-  font-size: larger;
-  padding: 5px;
-  margin: 2px;
-  
-  }
+
 button{
   color: white;
   background-color:rgb(29, 145, 192);
@@ -37,26 +31,14 @@ button{
   margin: 10px auto;
   }
   
-.messages{
-  display: flex;
-  justify-content: center;
+  #btn1 {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
   }
-  
-.error{
-  display: block;
-  background-color: white;
-  color: red;
-  width: fit-content;
-  height: 50px;
-  padding: 5px;
+  #btn1:hover {
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
   }
-  
-.success{
-  display: block;
-  background-color: lightblue;
-  color: black;
-  width: fit-content;
-  height: 50px;
-  padding: 5px;
-  }
-  
